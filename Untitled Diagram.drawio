@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.1">
+  <diagram name="Page-1" id="g1ioHameETK95ObDJx7T">
+    <mxGraphModel dx="2280" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-410" y="30" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="X3JfPEDHWv-7EbyUDdrs-1">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-3" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="X3JfPEDHWv-7EbyUDdrs-1" target="X3JfPEDHWv-7EbyUDdrs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-5" value="React FE" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-230" y="30" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="X3JfPEDHWv-7EbyUDdrs-5">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-7" value="Click login link&lt;br&gt;&amp;lt;GET translation.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-255" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-11" value="Laravel BE Web&lt;br&gt;&lt;i&gt;(acting as Auth0 Tenant)&lt;/i&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry y="30" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="X3JfPEDHWv-7EbyUDdrs-11">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-13" value="Laravel BE APIs&lt;br&gt;&lt;i&gt;(same project as Laravel BE)&lt;/i&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="X3JfPEDHWv-7EbyUDdrs-13">
+          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-15" value="Redirect 302&lt;br&gt;&amp;lt;GET translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0031" relative="1" as="geometry">
+            <mxPoint x="-175" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-95" y="130" />
+            </Array>
+            <mxPoint x="45" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-17" value="Show login form" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-260" y="170" />
+            </Array>
+            <mxPoint x="-355" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-18" value="Submit credential&lt;br&gt;&amp;lt;POST translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-355" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-250" y="220" />
+            </Array>
+            <mxPoint x="45" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
