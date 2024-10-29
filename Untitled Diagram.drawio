@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Page-1" id="g1ioHameETK95ObDJx7T">
-    <mxGraphModel dx="2280" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,10 +21,10 @@
         <mxCell id="X3JfPEDHWv-7EbyUDdrs-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="X3JfPEDHWv-7EbyUDdrs-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="X3JfPEDHWv-7EbyUDdrs-5">
-          <mxGeometry x="45" y="440" width="10" height="240" as="geometry" />
+        <mxCell id="rpZPybrss1myPxaJXPSo-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="X3JfPEDHWv-7EbyUDdrs-5" vertex="1">
+          <mxGeometry x="45" y="440" width="10" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-7" value="Click login link&lt;br&gt;&amp;lt;GET translation.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-6" edge="1">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-7" value="1. Click login link&lt;br&gt;&amp;lt;GET translation.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-255" y="120" as="sourcePoint" />
             <Array as="points">
@@ -36,9 +36,9 @@
           <mxGeometry x="100" y="30" width="100" height="690" as="geometry" />
         </mxCell>
         <mxCell id="X3JfPEDHWv-7EbyUDdrs-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="X3JfPEDHWv-7EbyUDdrs-11" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="520" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;startSize=6;" edge="1" parent="X3JfPEDHWv-7EbyUDdrs-11" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-12">
+        <mxCell id="rpZPybrss1myPxaJXPSo-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;startSize=6;" parent="X3JfPEDHWv-7EbyUDdrs-11" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="220" as="sourcePoint" />
             <mxPoint x="170" y="230" as="targetPoint" />
@@ -48,12 +48,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-2" value="Login web guard&lt;br&gt;&amp;lt;Session&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="rpZPybrss1myPxaJXPSo-1">
+        <mxCell id="rpZPybrss1myPxaJXPSo-2" value="5. Login web guard&lt;br&gt;&amp;lt;Session, to authenticate with&lt;br&gt;Laravel BE Web pages&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-1" vertex="1" connectable="0">
           <mxGeometry x="-0.0998" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="X3JfPEDHWv-7EbyUDdrs-11" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-12">
+        <mxCell id="rpZPybrss1myPxaJXPSo-4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;" parent="X3JfPEDHWv-7EbyUDdrs-11" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-55" y="330" as="sourcePoint" />
             <mxPoint x="20" y="380" as="targetPoint" />
@@ -64,18 +64,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-5" value="Redirect 302 with Passport PKCE client cred&lt;br&gt;&amp;lt;GET translation-api.mt.com/oauth/authorize?xxx&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="rpZPybrss1myPxaJXPSo-4">
+        <mxCell id="rpZPybrss1myPxaJXPSo-5" value="6. Redirect 302 to start Passport PKCE client cred&lt;br&gt;&amp;lt;GET translation-api.mt.com/oauth/authorize?xxx&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0998" y="1" relative="1" as="geometry">
             <mxPoint x="99" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X3JfPEDHWv-7EbyUDdrs-13" value="Laravel BE APIs&lt;br&gt;&lt;i&gt;(same project as Laravel BE)&lt;/i&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="370" y="30" width="100" height="690" as="geometry" />
+          <mxGeometry x="370" y="30" width="100" height="810" as="geometry" />
         </mxCell>
         <mxCell id="X3JfPEDHWv-7EbyUDdrs-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="X3JfPEDHWv-7EbyUDdrs-13" vertex="1">
-          <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="710" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-15" value="Redirect 302&lt;br&gt;&amp;lt;GET translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="X3JfPEDHWv-7EbyUDdrs-11">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-15" value="2. Redirect 302&lt;br&gt;&amp;lt;GET translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
           <mxGeometry x="0.0031" relative="1" as="geometry">
             <mxPoint x="-175" y="130" as="sourcePoint" />
             <Array as="points">
@@ -85,7 +85,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-17" value="Show login form" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" source="X3JfPEDHWv-7EbyUDdrs-11">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-17" value="3. Show login form" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="170" as="sourcePoint" />
             <Array as="points">
@@ -94,7 +94,7 @@
             <mxPoint x="-355" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-18" value="Submit credential&lt;br&gt;&amp;lt;POST translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="X3JfPEDHWv-7EbyUDdrs-11">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-18" value="4. Submit credential&lt;br&gt;&amp;lt;POST translation-api.mt.com/login&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-355" y="220" as="sourcePoint" />
             <Array as="points">
@@ -103,7 +103,7 @@
             <mxPoint x="45" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-9" value="Redirect 302 with generated auth code&lt;br&gt;&lt;span style=&quot;color: rgb(20, 21, 31);&quot;&gt;&amp;lt;GET translation.mt.com/auth?code=xxx&amp;gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="rpZPybrss1myPxaJXPSo-8">
+        <mxCell id="rpZPybrss1myPxaJXPSo-9" value="7. Redirect 302 with generated auth code&lt;br&gt;&lt;span style=&quot;color: rgb(20, 21, 31);&quot;&gt;&amp;lt;GET translation.mt.com/auth?code=xxx&amp;gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="rpZPybrss1myPxaJXPSo-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-360" y="570" as="sourcePoint" />
             <Array as="points">
@@ -112,42 +112,42 @@
             <mxPoint x="40" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-12" value="Request tokens&lt;br&gt;&lt;div&gt;{&quot;grant_type&quot;: &quot;authorization_code&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;client_id&quot;: &quot;5&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;redirect_uri&quot;: &quot;https://translation.mt.com/auth&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;code_verifier&quot;: &quot;FE prepared before&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;code&quot;: &quot;provided&quot;}&lt;/div&gt;&amp;lt;POST translation-api.mt.com/oauth/token&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="rpZPybrss1myPxaJXPSo-8" target="X3JfPEDHWv-7EbyUDdrs-12">
-          <mxGeometry x="0.0015" relative="1" as="geometry">
-            <mxPoint x="-170" y="549" as="sourcePoint" />
+        <mxCell id="rpZPybrss1myPxaJXPSo-12" value="8. Request tokens&lt;div&gt;&amp;lt;POST translation-api.mt.com/oauth/token&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;{&quot;grant_type&quot;: &quot;authorization_code&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;client_id&quot;: &quot;5&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;redirect_uri&quot;: &quot;https://translation.mt.com/auth&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;code_verifier&quot;: &quot;FE prepared before&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;code&quot;: &quot;provided&quot;}&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint x="-175" y="620" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-85" y="549" />
+              <mxPoint x="-85" y="620" />
             </Array>
-            <mxPoint y="549" as="targetPoint" />
+            <mxPoint x="145" y="620" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-13" value="Return access token, refresh token will be set in cookie" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="rpZPybrss1myPxaJXPSo-13" value="9. Return access token, refresh token will be set in cookie" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="145" y="600" as="sourcePoint" />
+            <mxPoint x="145" y="700" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-15" y="600" />
+              <mxPoint x="-15" y="700" />
             </Array>
-            <mxPoint x="-175" y="600" as="targetPoint" />
+            <mxPoint x="-175" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-14" value="Request user and other info from APIs with provided access token&lt;div&gt;&amp;lt;GET translation-api.mt.com/api/user....&amp;gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="rpZPybrss1myPxaJXPSo-8" target="X3JfPEDHWv-7EbyUDdrs-14">
+        <mxCell id="rpZPybrss1myPxaJXPSo-14" value="10.&amp;nbsp;&lt;div&gt;Request user and other info from APIs with provided access token&lt;div&gt;&amp;lt;GET translation-api.mt.com/api/user....&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="X3JfPEDHWv-7EbyUDdrs-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-160" y="670" as="sourcePoint" />
+            <mxPoint x="-175" y="770" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="5" y="670" />
+              <mxPoint x="5" y="770" />
             </Array>
-            <mxPoint x="400" y="670" as="targetPoint" />
+            <mxPoint x="400" y="770" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-15" value="Request user and other info from APIs with provided access token&lt;div&gt;&amp;lt;GET translation-api.mt.com/api/user....&amp;gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="415" y="710" as="sourcePoint" />
+        <mxCell id="rpZPybrss1myPxaJXPSo-15" value="11.&lt;div&gt;Request user and other info from APIs with provided access token&lt;div&gt;&amp;lt;GET translation-api.mt.com/api/user....&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0011" relative="1" as="geometry">
+            <mxPoint x="415" y="810" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="15" y="710" />
+              <mxPoint x="15" y="810" />
             </Array>
-            <mxPoint x="-180.18965517241395" y="710" as="targetPoint" />
+            <mxPoint x="-180.18965517241395" y="810" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
