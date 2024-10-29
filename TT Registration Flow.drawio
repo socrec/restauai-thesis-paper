@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Page-1" id="g1ioHameETK95ObDJx7T">
-    <mxGraphModel dx="1876" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-2" value="- Create user in db&lt;br&gt;- Login web guard&lt;br&gt;&lt;div&gt;- Update customer id in users tbl&lt;br&gt;- Create tenant db job&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-1" vertex="1" connectable="0">
+        <mxCell id="rpZPybrss1myPxaJXPSo-2" value="5.&amp;nbsp;&lt;br&gt;- Create user in db&lt;br&gt;- Login web guard&lt;br&gt;&lt;div&gt;- Update customer id in users tbl&lt;br&gt;- Create tenant db job&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-1" vertex="1" connectable="0">
           <mxGeometry x="-0.0998" y="1" relative="1" as="geometry">
-            <mxPoint x="19" y="33" as="offset" />
+            <mxPoint x="29" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rpZPybrss1myPxaJXPSo-4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;" parent="X3JfPEDHWv-7EbyUDdrs-11" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-12" edge="1">
@@ -52,15 +52,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-5" value="Redirect to email verify pending page&lt;br&gt;&amp;lt;GET tt-api.com/email/verify&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-4" vertex="1" connectable="0">
+        <mxCell id="rpZPybrss1myPxaJXPSo-5" value="7.&amp;nbsp;&lt;div&gt;Redirect to email verify pending page&lt;br&gt;&amp;lt;GET tt-api.com/email/verify&amp;gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="rpZPybrss1myPxaJXPSo-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0998" y="1" relative="1" as="geometry">
-            <mxPoint x="39" y="19" as="offset" />
+            <mxPoint x="-1" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X3JfPEDHWv-7EbyUDdrs-13" value="Laravel BE APIs&lt;br&gt;&lt;i&gt;(same project as Laravel BE)&lt;/i&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="370" y="30" width="100" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-17" value="Show register form" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-17" value="2. Show register form" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="170" as="sourcePoint" />
             <Array as="points">
@@ -69,7 +69,7 @@
             <mxPoint x="-355" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3JfPEDHWv-7EbyUDdrs-18" value="Submit credential&lt;br&gt;&amp;lt;POST tt-api.com/register&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
+        <mxCell id="X3JfPEDHWv-7EbyUDdrs-18" value="3. Submit credential&lt;br&gt;&amp;lt;POST tt-api.com/register&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="X3JfPEDHWv-7EbyUDdrs-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-355" y="220" as="sourcePoint" />
             <Array as="points">
@@ -78,7 +78,7 @@
             <mxPoint x="45" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-9" value="Redirect 302 with cookies to tell FE to start login flow&lt;br&gt;Cookies: (verified: true, email: email)&lt;br&gt;&lt;span style=&quot;color: rgb(20, 21, 31);&quot;&gt;&amp;lt;GET tt.com&amp;gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="rpZPybrss1myPxaJXPSo-8" edge="1">
+        <mxCell id="rpZPybrss1myPxaJXPSo-9" value="11.&amp;nbsp;&lt;div&gt;Redirect 302 with cookies to tell FE to start login flow&lt;br&gt;Cookies: (verified: true, email: email)&lt;br&gt;&lt;span style=&quot;color: rgb(20, 21, 31);&quot;&gt;&amp;lt;GET tt.com&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="rpZPybrss1myPxaJXPSo-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="145" y="750" as="sourcePoint" />
             <Array as="points">
@@ -87,7 +87,7 @@
             <mxPoint x="40" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpZPybrss1myPxaJXPSo-17" value="Show home page" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="rpZPybrss1myPxaJXPSo-8" target="X3JfPEDHWv-7EbyUDdrs-2" edge="1">
+        <mxCell id="rpZPybrss1myPxaJXPSo-17" value="12. Show home page" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="rpZPybrss1myPxaJXPSo-8" target="X3JfPEDHWv-7EbyUDdrs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-345" y="760" as="sourcePoint" />
             <Array as="points">
@@ -96,7 +96,7 @@
             <mxPoint x="-175" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-1" value="&amp;lt;GET tt-api.com/register&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-12">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-1" value="1. &amp;lt;GET tt-api.com/register&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-330" y="140" as="sourcePoint" />
             <Array as="points">
@@ -105,7 +105,7 @@
             <mxPoint x="149.5" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-2" value="Send verification email" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-2">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-2" value="6. Send verification email" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="330" as="sourcePoint" />
             <Array as="points">
@@ -114,7 +114,7 @@
             <mxPoint x="-350" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-3" value="Show email verify pending page&lt;br&gt;(user can hit resend verification email)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-2">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-3" value="8. Show email verify pending page&lt;br&gt;(user can hit resend verification email)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-12" target="X3JfPEDHWv-7EbyUDdrs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="460" as="sourcePoint" />
             <Array as="points">
@@ -123,8 +123,8 @@
             <mxPoint x="-350" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-4" value="Hit verification link in email&lt;br&gt;&amp;lt;GET tt-api.com/email/verify/{&lt;b&gt;id&lt;/b&gt;}/{&lt;b&gt;hash&lt;/b&gt;}&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;" edge="1" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-12">
-          <mxGeometry x="0.0833" relative="1" as="geometry">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-4" value="9. Hit verification link in email&lt;br&gt;&amp;lt;GET tt-api.com/email/verify/{&lt;b&gt;id&lt;/b&gt;}/{&lt;b&gt;hash&lt;/b&gt;}&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;" parent="1" source="X3JfPEDHWv-7EbyUDdrs-2" target="X3JfPEDHWv-7EbyUDdrs-12" edge="1">
+          <mxGeometry x="0.5357" relative="1" as="geometry">
             <mxPoint x="-380" y="370" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-450" y="370" />
@@ -134,7 +134,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;startSize=6;" edge="1" parent="1">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#080000;fontColor=#393C56;fillColor=#F2CC8F;startSize=6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="155" y="560" as="sourcePoint" />
             <mxPoint x="155" y="620" as="targetPoint" />
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZTbGjJP8coFDVD-pvjcx-13" value="- If hash valid, mark user as verified&lt;br&gt;- Login web guard&lt;br&gt;&lt;div&gt;- If tenant db creation is not finished, &lt;br&gt;redirect to&amp;nbsp;tenant-creation/verify to wait&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="ZTbGjJP8coFDVD-pvjcx-12">
+        <mxCell id="ZTbGjJP8coFDVD-pvjcx-13" value="10.&amp;nbsp;&lt;div&gt;- If hash valid, mark user as verified&lt;br&gt;- Login web guard&lt;br&gt;&lt;div&gt;- If tenant db creation is not finished, &lt;br&gt;redirect to&amp;nbsp;tenant-creation/verify to wait&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#14151F;fillColor=#F2CC8F;" parent="ZTbGjJP8coFDVD-pvjcx-12" vertex="1" connectable="0">
           <mxGeometry x="-0.0998" y="1" relative="1" as="geometry">
             <mxPoint x="19" y="33" as="offset" />
           </mxGeometry>
